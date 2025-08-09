@@ -25,9 +25,9 @@
     }
 
     .info {
-      /* background-color: black; */
       margin-top: -50px;
       text-align: left;
+      
       .roles {
         h3 {
           display: inline-block;

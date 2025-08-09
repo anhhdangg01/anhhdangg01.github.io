@@ -13,15 +13,15 @@ function Games() {
           <div className="game">
             <a href={game.link}>
               {/* <img src={require(game.path)} /> */}
-              <img src={require('../assets/celestial_clash_icon.png')}></img>
+              {/* <img src={require('../assets/celestial_clash_icon.png')}></img> */}
               <h2>{game.name}</h2>
             </a>
             
             <div className="info">
               <div className="roles">
-                {game.role.map((r) => {
+                {game.role.map((role) => {
                   return(
-                    <h3>{r}</h3>
+                    <h3>{role}</h3>
                   )
                 })}
               </div>
