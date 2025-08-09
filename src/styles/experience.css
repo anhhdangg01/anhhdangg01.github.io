@@ -1,6 +1,12 @@
 .experiences {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
+  max-width: 1030px;
+  padding-bottom: 2rem;
+
   h1 {
-    font-size: 70px;
+    font-size: 45px;
   }
 
   .experience {
@@ -9,25 +15,31 @@
       font-weight: bold;
       white-space: nowrap;
       
-      img {
+      /* img {
 
-      }
+      } */
 
       h2 {
-        color: white;
+        color: #60A5E7;
       }
     }
     a:hover {
       text-decoration: underline;
-      text-underline-offset: 16px;
+      text-underline-offset: 10px;
       text-decoration-thickness: 3px;
     }
 
 
     .info {
+      margin-top: -70px;
+      text-align: left;
+
       ul {
         li {
-
+          text-align: left;
+          color: #CFE8F0;
+          margin-top: 15px;
+          font-weight: 550;
         }
       }
     }
