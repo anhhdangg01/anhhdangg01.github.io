@@ -8,6 +8,7 @@ function Education() {
   return (
     <div className="education">
       <h1>Education</h1>
+      <img src={require("../assets/uci_seal.png")} />
       {education.map((e) => {
         return(
           <div className="text-section">
