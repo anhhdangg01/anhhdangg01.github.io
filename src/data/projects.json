@@ -33,7 +33,7 @@
       ],
       "link": "https://github.com/anhhdangg01/search_engine",
       "description": [
-        "Programmed search engine in C++ that outputs results from the UCI directory",
+        "Programmed search engine in Python that outputs results from the UCI directory",
         "Communicated with 3 team members on GitHub repository over the span of 3 months in Agile development cycles"
       ]
     },
