@@ -1,6 +1,11 @@
 .projects {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
+  max-width: 1030px;
+
   h1 {
-    font-size: 70px;
+    font-size: 45px;
   }
 
   .project {
@@ -10,24 +15,43 @@
       white-space: nowrap;
 
       h2 {
-        color: white;
+        color: #60A5E7;
       }
     }
     a:hover {
       text-decoration: underline;
-      text-underline-offset: 16px;
+      text-underline-offset: 10px;
       text-decoration-thickness: 3px;
     }
 
-
     .info {
+      /* background-color: black; */
+      margin-top: -50px;
+      text-align: left;
       .roles {
-
+        h3 {
+          display: inline-block;
+          margin-right: 10px;
+          margin-top: -5px;
+          margin-bottom: 10px;
+          background-color: #242F41;
+          text-align: center;
+          color: #CBD5E1;
+          border-color: #364255;
+          border-radius: 20px;
+          border-width: 1px;
+          border-style: solid;
+          width: 200px;
+          min-width: 200px;
+        }
       }
 
       ul {
         li {
-
+          text-align: left;
+          color: #CFE8F0;
+          margin-top: 15px;
+          font-weight: 550;
         }
       }
     }

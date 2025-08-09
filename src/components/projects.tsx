@@ -17,9 +17,9 @@ function Projects() {
             
             <div className="info">
               <div className="roles">
-                {project.role.map((r) => {
+                {project.role.map((role) => {
                   return(
-                    <h3>{r}</h3>
+                    <h3>{role}</h3>
                   )
                 })}
               </div>
