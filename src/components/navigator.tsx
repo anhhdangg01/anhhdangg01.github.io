@@ -9,10 +9,10 @@ function Navigator() {
           <a class="nav-link" href="#home">
             Home
             </a></li>
-        <li>
+        {/* <li>
           <a class="nav-link" href="#me">
             About Me
-            </a></li>
+            </a></li> */}
         <li>
           <a class="nav-link" href="#education">
             Education

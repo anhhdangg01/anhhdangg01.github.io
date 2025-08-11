@@ -16,7 +16,7 @@ function Portfolio() {
       <Navigator />
       <div className="pages">
         <Home />
-        <Me />
+        {/* <Me /> */}
         <Education />
         <Skills />
         <Projects />

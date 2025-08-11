@@ -5,20 +5,59 @@
   background-color: white; /* placeholder background */
   color: black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 
-  .text-section {
+  .info {
+    margin-left: 100px;
+    margin-right: 100px;
+
+    .text-section {
+      animation: fade-in 3s;
+      padding-top: 50px;
+      
+      h1 {
+        font-weight: bold;
+        font-size: 50px;
+      }
+      h2 {
+        font-weight: 550;
+        font-size: 25px;
+      }
+    }
+
+    .me {
+      animation: fade-in 3s;
+      margin-left: 10px;
+      margin-right: 10px;
+      h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 45px;
+        color: black;
+      }
+      .about-me {
+        max-width: 500px;
+        text-align: center;
+        background-color: black;
+        opacity: 90%;
+        padding: 50px;
+        text-decoration: none;
+        box-shadow: 0 4p 8px rgba(0, 0, 0, 0.2);
+        font-size: 20px;
+        border-radius: 40px;
+        color: white;
+      }
+    }
+  }
+
+  img {
     animation: fade-in 3s;
-    padding-top: 50px;
-    h1 {
-      font-weight: bold;
-      font-size: 50px;
-    }
-    h2 {
-      font-weight: normal;
-      font-size: 25px;
-    }
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 500px;
+    height: 700px;
+    border-radius: 40px;
   }
 }
 
