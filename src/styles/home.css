@@ -1,63 +1,39 @@
 .home {
-  text-align: center;
-  height: 900px;
   width: 100%;
-  background-color: white; /* placeholder background */
-  color: black;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  max-width: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
 
-  .info {
-    margin-left: 100px;
-    margin-right: 100px;
-
-    .text-section {
-      animation: fade-in 3s;
-      padding-top: 50px;
-      
-      h1 {
-        font-weight: bold;
-        font-size: 50px;
-      }
-      h2 {
-        font-weight: 550;
-        font-size: 25px;
-      }
+  .intro {
+    animation: fade-in 3s;
+    margin-bottom: 50px;
+    
+    h1 {
+      font-weight: bold;
+      font-size: 45px;
+      color: #60A5E7;
     }
-
-    .me {
-      animation: fade-in 3s;
-      margin-left: 10px;
-      margin-right: 10px;
-      h1 {
-        text-align: center;
-        margin-bottom: 50px;
-        font-size: 45px;
-        color: black;
-      }
-      .about-me {
-        max-width: 500px;
-        text-align: center;
-        background-color: black;
-        opacity: 90%;
-        padding: 50px;
-        text-decoration: none;
-        box-shadow: 0 4p 8px rgba(0, 0, 0, 0.2);
-        font-size: 20px;
-        border-radius: 40px;
-        color: white;
-      }
+    h2 {
+      font-weight: 400;
+      font-size: 25px;
+      color: #CFE8F0;
     }
   }
 
-  img {
+  p {
     animation: fade-in 3s;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 500px;
-    height: 700px;
-    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 550;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    background-color: #242F41;
+    color: #CBD5E1;
+    border-color: #364255;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
   }
 }
 
