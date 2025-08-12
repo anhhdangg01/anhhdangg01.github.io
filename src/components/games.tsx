@@ -12,8 +12,6 @@ function Games() {
         return(
           <div className="game">
             <a href={game.link}>
-              {/* <img src={require(game.path)} /> */}
-              {/* <img src={require('../assets/celestial_clash_icon.png')}></img> */}
               <h2>{game.name}</h2>
             </a>
             
