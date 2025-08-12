@@ -12,8 +12,6 @@ function Experience() {
         return(
           <div className="experience">
             <a href={experience.link}>
-              {/* <img src={require(experience.path)} /> */}
-              {/* <img src={require('../assets/100blackmenOC_SAC_icon.png')}></img> */}
               <h2>{experience.name}</h2>
             </a>
             
