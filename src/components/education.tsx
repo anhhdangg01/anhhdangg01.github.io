@@ -6,7 +6,7 @@ const education = education_data.education;
 
 function Education() {
   return (
-    <div className="education">
+    <div className="education" id="education">
       <h1>Education</h1>
       <img src={require("../assets/uci_seal.png")} />
       {education.map((e) => {

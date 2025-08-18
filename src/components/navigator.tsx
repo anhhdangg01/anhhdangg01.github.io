@@ -30,7 +30,7 @@ function Navigator() {
               Games
               </a></li>
           <li>
-            <a class = "nav-link" href="#experience">
+            <a class="nav-link" href="#experiences">
               Experience
               </a></li>
           <li>

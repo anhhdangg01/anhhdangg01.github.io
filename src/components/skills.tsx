@@ -5,7 +5,7 @@ const skills = skills_data.skills;
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <h2>Skills</h2>
       {skills.map((skill) => {
         const imgSrc = require(`../assets/${skill.icon_name}.png`);

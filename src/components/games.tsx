@@ -6,7 +6,7 @@ const games = games_data.games;
 
 function Games() {
   return (
-    <div className="games">
+    <div className="games" id="games">
       <h1>Games</h1>
       {games.map((game) => {
         return(

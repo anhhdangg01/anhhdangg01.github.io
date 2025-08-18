@@ -6,7 +6,7 @@ const experiences = experience_data.experiences;
 
 function Experience() {
   return (
-    <div className="experiences">
+    <div className="experiences" id="experiences">
       <h1>Experience</h1>
       {experiences.map((experience) => {
         return(

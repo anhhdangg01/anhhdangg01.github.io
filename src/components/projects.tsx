@@ -6,7 +6,7 @@ const projects = projects_data.projects;
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>Projects</h1>
       {projects.map((project) => {
         return(

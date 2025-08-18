@@ -3,7 +3,7 @@ import '../styles/home.css';
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="intro">
         <h1>Hello there!</h1>
         <h2>My name is Anh Dang.</h2>

@@ -24,7 +24,7 @@ function Contact() {
   }
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h1>Contact me!</h1>
       <form>
         <label>Name
