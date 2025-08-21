@@ -1,0 +1,31 @@
+{
+  "routes": [
+    {
+        "route": "Home"
+    },
+    {
+        "route": "Education"
+    },
+    {
+        "route": "Skills"
+    },
+    {
+        "route": "Projects"
+    },
+    {
+        "route": "Skills"
+    },
+    {
+        "route": "Projects"
+    },
+    {
+        "route": "Games"
+    },
+    {
+        "route": "Experiences"
+    },
+    {
+        "route": "Contact"
+    }
+  ]
+}
