@@ -51,11 +51,6 @@
       "path": "../assets/ui_ux_icon.png"
     },
     {
-      "name": "AWS Cloud",
-      "icon_name": "aws_cloud_icon",
-      "path": "../assets/aws_cloud_icon.png"
-    },
-    {
       "name": "Python",
       "icon_name": "python_icon",
       "path": "../assets/python_icon.png"
