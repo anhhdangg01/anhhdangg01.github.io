@@ -1,31 +1,32 @@
 {
   "routes": [
     {
-        "route": "Home"
+        "title": "Home",
+        "route": "home"
     },
     {
-        "route": "Education"
+        "title": "Education",
+        "route": "education"
     },
     {
-        "route": "Skills"
+        "title": "Skills",
+        "route": "skills"
     },
     {
-        "route": "Projects"
+        "title": "Projects",
+        "route": "projects"
     },
     {
-        "route": "Skills"
+        "title": "Games",
+        "route": "games"
     },
     {
-        "route": "Projects"
+        "title": "Experience",
+        "route": "experiences"
     },
     {
-        "route": "Games"
-    },
-    {
-        "route": "Experiences"
-    },
-    {
-        "route": "Contact"
+        "title": "Contact",
+        "route": "contact"
     }
   ]
 }
