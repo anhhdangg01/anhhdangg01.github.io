@@ -6,16 +6,6 @@
       "path": "../assets/react_icon.png"
     },
     {
-      "name": "React Native",
-      "icon_name": "react_icon",
-      "path": "../assets/react_icon.png"
-    },
-    {
-      "name": "Javascript",
-      "icon_name": "javascript_icon",
-      "path": "../assets/javascript_icon.png"
-    },
-    {
       "name": "HTML",
       "icon_name": "html_icon",
       "path": "../assets/html_icon.png"
@@ -24,6 +14,11 @@
       "name": "CSS",
       "icon_name": "css_icon",
       "path": "../assets/css_icon.png"
+    },
+    {
+      "name": "Javascript",
+      "icon_name": "javascript_icon",
+      "path": "../assets/javascript_icon.png"
     },
     {
       "name": "Figma",
@@ -44,6 +39,11 @@
       "name": "Java",
       "icon_name": "java_icon",
       "path": "../assets/java_icon.png"
+    },
+    {
+      "name": "React Native",
+      "icon_name": "react_icon",
+      "path": "../assets/react_icon.png"
     },
     {
       "name": "UI/UX",
