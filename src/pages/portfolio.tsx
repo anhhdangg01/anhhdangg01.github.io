@@ -2,7 +2,6 @@ import React from "react";
 import '../styles/portfolio.css';
 import Navigator from '../components/navigator.tsx';
 import Home from '../components/home.tsx';
-import Me from '../components/me.tsx';
 import Education from '../components/education.tsx';
 import Skills from "../components/skills.tsx";
 import Projects from '../components/projects.tsx';
@@ -16,7 +15,6 @@ function Portfolio() {
       <Navigator />
       <div className="pages">
         <Home />
-        {/* <Me /> */}
         <Education />
         <Skills />
         <Projects />
