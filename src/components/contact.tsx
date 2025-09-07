@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="copyright">
-        &copy; Anh Dang. All rights reserved.
+        &copy; 2025 Anh Dang. All rights reserved.
       </div>
       <div className="links">
         <a onClick={() => window.location.href = `mailto:${myEmail}`}>
