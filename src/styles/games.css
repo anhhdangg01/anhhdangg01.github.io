@@ -3,6 +3,7 @@
   margin-right: 10px;
   width: 90%;
   max-width: 950px;
+  margin-top: 20vh;
 
   h1 {
     font-size: 45px;
@@ -34,6 +35,7 @@
         h3 {
           display: inline-block;
           margin-right: 10px;
+          margin-bottom: -5px;
           padding-left: 10px;
           padding-right: 10px;
           background-color: #242F41;

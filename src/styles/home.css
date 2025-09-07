@@ -4,9 +4,10 @@
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
+  margin-top: 20vh;
 
   .intro {
-    animation: fade-in 3s;
+    /* animation: fade-in 3s; */
     margin-bottom: 50px;
     
     h1 {
@@ -22,7 +23,7 @@
   }
 
   p {
-    animation: fade-in 3s;
+    /* animation: fade-in 3s; */
     font-size: 16px;
     font-weight: 550;
     margin-left: 10px;
@@ -37,11 +38,11 @@
   }
 }
 
-@keyframes fade-in {
+/* @keyframes fade-in {
   from {
     opacity: 0;
   }
   to {
     opacity: 100;
   }
-}
+} */
