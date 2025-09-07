@@ -3,10 +3,10 @@
   margin-right: 10px;
   width: 90%;
   max-width: 900px;
-  padding-bottom: 2rem;
 
   h1 {
     font-size: 45px;
+    text-align: center;
   }
 
   .experience {
@@ -26,8 +26,8 @@
 
 
     .info {
-      margin-top: -70px;
       text-align: left;
+      padding-bottom: 5px;
 
       ul {
         li {

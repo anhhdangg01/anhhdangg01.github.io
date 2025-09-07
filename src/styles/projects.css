@@ -6,6 +6,7 @@
 
   h1 {
     font-size: 45px;
+    text-align: center;
   }
 
   .project {
@@ -24,17 +25,16 @@
     }
 
     .info {
-      margin-top: -50px;
       text-align: left;
       
       .roles {
+        margin-top: -25px;
+
         h3 {
           display: inline-block;
           margin-right: 10px;
-          margin-top: -5px;
           padding-left: 10px;
           padding-right: 10px;
-          margin-bottom: 10px;
           background-color: #242F41;
           text-align: center;
           color: #CBD5E1;
@@ -46,6 +46,8 @@
       }
 
       ul {
+        padding-bottom: 5px;
+
         li {
           color: #CFE8F0;
           margin-top: 15px;

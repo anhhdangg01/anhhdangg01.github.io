@@ -6,6 +6,7 @@
 
   h1 {
     font-size: 45px;
+    text-align: center;
   }
 
   .game {
@@ -25,15 +26,14 @@
 
 
     .info {
-      margin-top: -50px;
       text-align: left;
 
       .roles {
+        margin-top: -25px;
+
         h3 {
           display: inline-block;
           margin-right: 10px;
-          margin-top: -5px;
-          margin-bottom: 10px;
           padding-left: 10px;
           padding-right: 10px;
           background-color: #242F41;
@@ -47,10 +47,12 @@
       }
 
       ul {
+        padding-bottom: 5px;
+        
         li {
           text-align: left;
           color: #CFE8F0;
-          margin-top: 15px;
+          margin-bottom: 15px;
           font-weight: 550;
         }
       }
