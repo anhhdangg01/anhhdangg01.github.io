@@ -11,7 +11,7 @@ function Experience() {
         {experiences.map((experience) => {
           const imgSrc = require(`../assets/${experience.icon_name}.png`);
           return(
-            <a target="_blank" href={experience.link}>
+            <a target="_blank" rel="noreferrer" href={experience.link}>
               <div className="experience">
                 <img src={imgSrc} alt={experience.alt} />
                 <h2>{experience.name}</h2>

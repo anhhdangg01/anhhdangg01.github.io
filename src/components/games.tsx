@@ -11,7 +11,7 @@ function Games() {
         {games.map((game) => {
           const imgSrc = require(`../assets/${game.icon_name}.png`);
           return(
-            <a target="_blank" href={game.link}>
+            <a target="_blank" rel="noreferrer" href={game.link}>
               <div className="game">
                 <img src={imgSrc} alt={game.alt} />
                 <h2>{game.name}</h2>

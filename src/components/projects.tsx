@@ -11,7 +11,7 @@ function Projects() {
         {projects.map((project) => {
           const imgSrc = require(`../assets/${project.icon_name}.png`);
           return(
-            <a target="_blank" href={project.link}>
+            <a target="_blank" rel="noreferrer" href={project.link}>
               <div className="project">
                 <img src={imgSrc} alt={project.alt} />
                 <h2>{project.name}</h2>
