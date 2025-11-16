@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/experience.css';
 import experience_data from '../data/experience.json';
 
@@ -6,28 +5,37 @@ const experiences = experience_data.experiences;
 
 function Experience() {
   return (
-    <div className="experiences" id="experiences">
+    <div className="section">
       <h1>Experience</h1>
-      {experiences.map((experience) => {
-        return(
-          <div className="experience">
-            <a href={experience.link}>
-              <h2>{experience.name}</h2>
-            </a>
-            
-            <div className="info">
-              <ul>
-                {experience.description.map((desc) => {
-                  return(
-                    <li>{desc}</li>
-                  )
-                })}
-              </ul>
+      <div className="experiences" id="experiences">
+        {experiences.map((experience) => {
+          const imgSrc = require(`../assets/${experience.icon_name}.png`);
+          return(
+            <div onClick={() => window.open(`${experience.link}`, "_blank")}>
+              <div className="experience">
+                <img src={imgSrc} alt={experience.alt} />
+                <h2>{experience.name}</h2>
+                <div className="info">
+                  <div className="roles">
+                    {experience.role.map((role) => {
+                      return(
+                        <h3>{role}</h3>
+                      )
+                    })}
+                  </div>
+                  <ul>
+                    {experience.description.map((desc) => {
+                      return(
+                        <li>{desc}</li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              </div>
             </div>
-          </div>
-        )
-      })
-      }
+          )
+        })}
+      </div>
     </div>
   )
 }

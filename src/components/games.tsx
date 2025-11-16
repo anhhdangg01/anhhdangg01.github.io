@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/games.css';
 import games_data from '../data/games.json';
 
@@ -6,35 +5,37 @@ const games = games_data.games;
 
 function Games() {
   return (
-    <div className="games" id="games">
+    <div className="section">
       <h1>Games</h1>
-      {games.map((game) => {
-        return(
-          <div className="game">
-            <a href={game.link}>
-              <h2>{game.name}</h2>
-            </a>
-            
-            <div className="info">
-              <div className="roles">
-                {game.role.map((role) => {
-                  return(
-                    <h3>{role}</h3>
-                  )
-                })}
+      <div className="games" id="games">
+        {games.map((game) => {
+          const imgSrc = require(`../assets/${game.icon_name}.png`);
+          return(
+            <div onClick={() => window.open(`${game.link}`, "_blank")}>
+              <div className="game">
+                <img src={imgSrc} alt={game.alt} />
+                <h2>{game.name}</h2>
+                <div className="info">
+                  <div className="roles">
+                    {game.role.map((role) => {
+                      return(
+                        <h3>{role}</h3>
+                      )
+                    })}
+                  </div>
+                  <ul>
+                    {game.description.map((desc) => {
+                      return(
+                        <li>{desc}</li>
+                      )
+                    })}
+                  </ul>
+                </div>
               </div>
-              <ul>
-                {game.description.map((desc) => {
-                  return(
-                    <li>{desc}</li>
-                  )
-                })}
-              </ul>
             </div>
-          </div>
-        )
-      })
-      }
+          )
+        })}
+      </div>
     </div>
   )
 }

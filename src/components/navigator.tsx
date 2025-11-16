@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Hamburger from 'hamburger-react';
 import '../styles/navigator.css';
 import routes_data from '../data/routes.json';
@@ -14,7 +14,7 @@ function Navigator() {
         {routes.map((route) => {
           return(
             <li>
-              <a class="nav-link" href={`#${route.route}`} onclick={() => setOpen((prev) => !prev)}>
+              <a className="nav-link" href={`#${route.route}`} onClick={() => setOpen((prev) => !prev)}>
                 <span>{route.title}</span>
                 </a></li>
           )

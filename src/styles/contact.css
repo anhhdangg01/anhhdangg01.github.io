@@ -10,13 +10,20 @@
 
   .links {
     text-align: right;
-    img {
+
+    button {
+      background: none;
+      border: none;
       width: 50px;
-      filter: invert(100%);
-    }
-    img:hover {
-      filter: invert(100%) opacity(80%);
-    }
+
+      img {
+        width: 50px;
+        filter: invert(100%);
+      }
+      img:hover {
+        filter: invert(100%) opacity(80%);
+      }
+  }
   }
 
   .copyright {

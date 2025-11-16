@@ -2,9 +2,10 @@
   "education": [
     {
       "education": "University of California, Irvine",
-      "degree": "Software Engineering, B.A.",
+      "degree": "Software Engineering, B.S.",
       "graduation": "March 2026",
-      "seal": "uci_seal.png"
+      "seal": "uci_seal.png",
+      "alt": "UCI seal"
     }
   ]
 }

@@ -6,7 +6,8 @@
         "UI/UX Designer",
         "Artist"
       ],
-      "path": "../assets/celestial_clash_icon.png",
+      "icon_name": "celestial_clash_icon",
+      "alt": "Celestial Clash title screen",
       "link": "https://dtrmgiraffe.itch.io/celestial-clash",
       "description": [
         "Designed UI/UX for a space/celestial-themed multi-player fighting game centering around Zodiac combos",
@@ -20,7 +21,8 @@
         "Concept Artist",
         "UI/UX Designer"
       ],
-      "path": "../assets/magicians_umbrella_icon.png",
+      "icon_name": "magicians_umbrella_icon",
+      "alt": "Magician's Umbrella title screen",
       "link": "https://saffrona.itch.io/magicians-umbrella",
       "description": [
         "Created concept art and helped finalize design of main character",
@@ -33,7 +35,8 @@
       "role": [
         "Artist"
       ],
-      "path": "../assets/tomo_no_taiko_icon.png",
+      "icon_name": "tomo_no_taiko_icon",
+      "alt": "Tomo no Taiko icon",
       "link": "https://geminibllllue.itch.io/tnt-nh",
       "description": [
         "Designed and finalized 2nd main character and taiko drum asset",
@@ -46,7 +49,8 @@
         "UI/UX Designer",
         "Concept Artist"
       ],
-      "path": "../assets/last_night_in_arcadia_icon.png",
+      "icon_name": "last_night_in_arcadia_icon",
+      "alt": "Last Night in Arcadia title screen",
       "link": "https://mistyl.itch.io/last-night-in-arcadia",
       "description": [
         "Designed several concept art for 1 character and UI/UX",

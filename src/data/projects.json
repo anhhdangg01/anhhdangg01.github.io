@@ -6,6 +6,8 @@
         "Full-Stack Engineer",
         "UI/UX Designer"
       ],
+      "icon_name": "vision_bucket",
+      "alt": "Vision Bucket title card",
       "link": "https://github.com/stars/anhhdangg01/lists/vision-bucket",
       "description": [
         "Engineered front-end, back-end, and middleware architectures in React for users to favorite and organize their favorite movies from the iMDB database",
@@ -19,6 +21,8 @@
         "Front-end Engineer",
         "UI/UX Designer"
       ],
+      "icon_name": "game_on",
+      "alt": "Game on forums page",
       "link": "https://github.com/anhhdangg01/game_on/tree/main",
       "description": [
         "Engineered front-end architecture in React Native for users to create an account, edit their profile, post in the forums to find fellow players, and message other players",
@@ -31,21 +35,12 @@
       "role": [
         "Programmer"
       ],
+      "icon_name": "search_engine",
+      "alt": "Search Engine icon",
       "link": "https://github.com/anhhdangg01/search_engine",
       "description": [
         "Programmed search engine in Python that outputs results from the UCI directory",
         "Communicated with 3 team members on GitHub repository over the span of 3 months in Agile development cycles"
-      ]
-    },
-    {
-      "name": "MySQL Python Program",
-      "role": [
-        "Programmer"
-      ],
-      "link": "https://github.com/anhhdangg01/MySQL_python_program",
-      "description": [
-        "Programmed Python program that outputs results from a MySQL database",
-        "Communicated with 3 team members on GitHub repository"
       ]
     }
   ]

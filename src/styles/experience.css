@@ -1,43 +1,80 @@
-.experiences {
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 90%;
-  max-width: 900px;
+.section {
   margin-top: 20vh;
+}
 
-  h1 {
-    font-size: 45px;
-    text-align: center;
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+    width: 80vw;
+    max-width: 500px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
   }
 
   .experience {
-    a {
-      text-decoration: none;
-      font-weight: bold;
+    min-height: 675px;
+    width: 80vw;
+    max-width: 500px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #283852;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #3d4a5f;
+    border-style: solid;
+    transition: transform 0.3s, border-color 0.3s;
 
-      h2 {
-        color: #60A5E7;
-      }
+    h2 {
+      color: #60A5E7;
+      text-align: left;
+      margin-top: 25px;
+      margin-bottom: 0;
     }
-    a:hover {
-      text-decoration: underline;
-      text-underline-offset: 10px;
-      text-decoration-thickness: 3px;
-    }
-
 
     .info {
       text-align: left;
-      padding-bottom: 5px;
+      
+      .roles {
+        h3 {
+          display: inline-block;
+          margin-right: 10px;
+          margin-bottom: 0;
+          padding: 10px;
+          background-color: #2e4c7e;
+          text-align: center;
+          color: #e2eaf3;
+          border-color: #425f8d;
+          border-radius: 40px;
+          border-width: 1px;
+          border-style: solid;
+          font-size: 20px;
+        }
+      }
 
       ul {
+        padding-bottom: 5px;
+
         li {
-          text-align: left;
           color: #CFE8F0;
           margin-top: 15px;
           font-weight: 550;
+          font-size: 20px;
         }
       }
     }
+  }
+  .experience:hover {
+    transform: translateY(-5px);
+    border-color: #adbbcc;
   }
 }

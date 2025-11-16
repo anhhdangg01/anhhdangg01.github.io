@@ -3,67 +3,62 @@
     {
       "name": "React",
       "icon_name": "react_icon",
-      "path": "../assets/react_icon.png"
-    },
-    {
-      "name": "HTML",
-      "icon_name": "html_icon",
-      "path": "../assets/html_icon.png"
-    },
-    {
-      "name": "CSS",
-      "icon_name": "css_icon",
-      "path": "../assets/css_icon.png"
-    },
-    {
-      "name": "Javascript",
-      "icon_name": "javascript_icon",
-      "path": "../assets/javascript_icon.png"
-    },
-    {
-      "name": "Figma",
-      "icon_name": "figma_icon",
-      "path": "../assets/figma_icon.png"
-    },
-    {
-      "name": "Jira",
-      "icon_name": "jira_icon",
-      "path": "../assets/jira_icon.png"
-    },
-    {
-      "name": "Agile",
-      "icon_name": "agile_icon",
-      "path": "../assets/agile_icon.png"
-    },
-    {
-      "name": "Java",
-      "icon_name": "java_icon",
-      "path": "../assets/java_icon.png"
+      "alt": "React icon"
     },
     {
       "name": "React Native",
       "icon_name": "react_icon",
-      "path": "../assets/react_icon.png"
+      "alt": "React icon"
+    },
+    {
+      "name": "HTML",
+      "icon_name": "html_icon",
+      "alt": "HTML icon"
+    },
+    {
+      "name": "CSS",
+      "icon_name": "css_icon",
+      "alt": "CSS icon"
+    },
+    {
+      "name": "Javascript",
+      "icon_name": "javascript_icon",
+      "alt": "Javascript icon"
+    },
+    {
+      "name": "Clip Studio Paint",
+      "icon_name": "clip_studio_paint_icon",
+      "alt": "Clip Studio Paint icon"
+    },
+    {
+      "name": "Krita",
+      "icon_name": "krita_icon",
+      "alt": "Krita icon"
+    },
+    {
+      "name": "Figma",
+      "icon_name": "figma_icon",
+      "alt": "Figma icon"
     },
     {
       "name": "UI/UX",
       "icon_name": "ui_ux_icon",
-      "path": "../assets/ui_ux_icon.png"
+      "alt": "UI/UX icon"
     },
     {
       "name": "Python",
       "icon_name": "python_icon",
-      "path": "../assets/python_icon.png"
+      "alt": "Python icon"
     },
     {
-      "name": "MySQL",
-      "icon_name": "mysql_icon",
-      "path": "../assets/mysql_icon.png"
+      "name": "Java",
+      "icon_name": "java_icon",
+      "alt": "Java icon"
     },
     {
       "name": "C++",
       "icon_name": "c++_icon",
-      "path": "../assets/c++_icon.png"
+      "alt": "C++ icon"
     }
   ]
 }
