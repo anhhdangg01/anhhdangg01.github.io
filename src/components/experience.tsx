@@ -11,7 +11,7 @@ function Experience() {
         {experiences.map((experience) => {
           const imgSrc = require(`../assets/${experience.icon_name}.png`);
           return(
-            <div onClick={() => window.open(`${experience.link}`, "_blank")}>
+            <a target="_blank" href={experience.link}>
               <div className="experience">
                 <img src={imgSrc} alt={experience.alt} />
                 <h2>{experience.name}</h2>
@@ -32,7 +32,7 @@ function Experience() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </a>
           )
         })}
       </div>

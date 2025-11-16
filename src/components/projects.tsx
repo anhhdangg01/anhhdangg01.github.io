@@ -11,7 +11,7 @@ function Projects() {
         {projects.map((project) => {
           const imgSrc = require(`../assets/${project.icon_name}.png`);
           return(
-            <div onClick={() => window.open(`${project.link}`, "_blank")}>
+            <a target="_blank" href={project.link}>
               <div className="project">
                 <img src={imgSrc} alt={project.alt} />
                 <h2>{project.name}</h2>
@@ -32,7 +32,7 @@ function Projects() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </a>
           )
         })}
       </div>
