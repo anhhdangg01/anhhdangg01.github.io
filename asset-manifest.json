@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15d1e80a.css",
+    "main.js": "/static/js/main.e981b2b4.js",
+    "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
+    "static/media/vision_bucket.png": "/static/media/vision_bucket.80576cff6270fe0df6dd.png",
+    "static/media/anh_dang.png": "/static/media/anh_dang.befe9851bcf2de814d23.png",
+    "static/media/search_engine.png": "/static/media/search_engine.037b418a528a1c846cf6.png",
+    "static/media/uci_seal.png": "/static/media/uci_seal.f900e8d5324e5cdcb5e3.png",
+    "static/media/last_night_in_arcadia_icon.png": "/static/media/last_night_in_arcadia_icon.b514337f5a76baace7a9.png",
+    "static/media/game_on.png": "/static/media/game_on.76fc3331de19ae2ef574.png",
+    "static/media/celestial_clash_icon.png": "/static/media/celestial_clash_icon.279bb5291629984eb5c8.png",
+    "static/media/tomo_no_taiko_icon.png": "/static/media/tomo_no_taiko_icon.797a4e232fbace516f41.png",
+    "static/media/games_for_love_icon.png": "/static/media/games_for_love_icon.80f469d9f5cf30fa908d.png",
+    "static/media/100blackmenOC_SAC_icon.png": "/static/media/100blackmenOC_SAC_icon.8be1f01c7baad6e9bcfe.png",
+    "static/media/magicians_umbrella_icon.png": "/static/media/magicians_umbrella_icon.02a097bd3a7d18d21f82.png",
+    "static/media/boundary_rss.png": "/static/media/boundary_rss.75c6ea1e61c2cdd28a54.png",
+    "index.html": "/index.html",
+    "main.15d1e80a.css.map": "/static/css/main.15d1e80a.css.map",
+    "main.e981b2b4.js.map": "/static/js/main.e981b2b4.js.map",
+    "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15d1e80a.css",
+    "static/js/main.e981b2b4.js"
+  ]
+}
